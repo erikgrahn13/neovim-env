@@ -7,3 +7,5 @@ vim.opt.number = true
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.laststatus = 3
+vim.opt.shiftwidth = 4
+vim.opt.tabstop = 4
