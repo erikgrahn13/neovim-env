@@ -57,3 +57,8 @@ vim.api.nvim_set_keymap("v", "<A-k>", ":m .-2<CR>==", opts)
 vim.api.nvim_set_keymap("v", "<A-j>", ":m .+1<CR>==", opts)
 vim.api.nvim_set_keymap("v", "<A-k>", ":move '<-2<CR>gv-gv", opts)
 vim.api.nvim_set_keymap("v", "<A-j>", ":move '>+1<CR>gv-gv", opts)
+
+vim.api.nvim_set_keymap("n", "<C-p>", ":Telescope find_files<CR>", opts)
+vim.api.nvim_set_keymap("n", "<C-f>", ":Telescope live_grep<CR>", opts)
+vim.api.nvim_set_keymap("n", "<C-r>", ":Telescope buffers<CR>", opts)
+vim.api.nvim_set_keymap("t","<Leader><ESC>"  ,"<C-\\><C-n>"  ,opts)

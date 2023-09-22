@@ -15,3 +15,4 @@ vim.opt.showmode = false
 if vim.fn.exists(":GuiFont") == 2 then
     vim.cmd("GuiFont MesloLGS NF:h10")
 end
+
